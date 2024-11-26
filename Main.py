@@ -133,7 +133,7 @@ def main():
 
             emoji_images = {
                 'happy': 'Images\happy.png',      
-                'sad': 'Images\Sad.png',          
+                'sad': 'Images/Sad.png',          
                 'angry': 'Images\\angry.png',      
                 'fear': 'Images\\fear.png',        
                 'surprise': 'Images\surprise.png',
