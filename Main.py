@@ -132,12 +132,12 @@ def main():
             }
 
             emoji_images = {
-                'happy': 'D:\Anbazhagan\Abishek\Emotion\Images\happy.png',      
-                'sad': 'D:\Anbazhagan\Abishek\Emotion\Images\Sad.png',          
-                'angry': 'D:\Anbazhagan\Abishek\Emotion\Images\\angry.png',      
-                'fear': 'D:\Anbazhagan\Abishek\Emotion\Images\\fear.png',        
-                'surprise': 'D:\Anbazhagan\Abishek\Emotion\Images\surprise.png',
-                'neutral': 'D:\Anbazhagan\Abishek\Emotion\Images\\neutral.png'   
+                'happy': 'Images\happy.png',      
+                'sad': 'Images\Sad.png',          
+                'angry': 'Images\\angry.png',      
+                'fear': 'Images\\fear.png',        
+                'surprise': 'Images\surprise.png',
+                'neutral': 'Images\\neutral.png'   
             }
             
             emotion_placeholder.markdown(f"**Emotion Detected:** {emotion_color_map[detected_emotion]}")
